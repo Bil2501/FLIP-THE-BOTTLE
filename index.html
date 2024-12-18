@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bottle Filling Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1 id="game-title">Bottle Filling Game</h1>
+    <div class="color-palette">
+      <button class="color" id="color-red" style="background-color: red;"></button>
+      <button class="color" id="color-blue" style="background-color: blue;"></button>
+      <button class="color" id="color-green" style="background-color: green;"></button>
+      <button class="color" id="color-yellow" style="background-color: yellow;"></button>
+    </div>
+    
+    <div class="bottles">
+      <div class="bottle" id="bottle-1"></div>
+      <div class="bottle" id="bottle-2"></div>
+      <div class="bottle" id="bottle-3"></div>
+    </div>
+
+    <div id="score">
+      <span>Score: </span><span id="score-value">0</span>
+    </div>
+
+    <div class="adsense-placeholder">
+      <!-- AdSense code or other ad integrations go here -->
+      <p>Ad goes here (AdSense Placeholder)</p>
+    </div>
+
+    <div id="level-indicator">
+      <span>Level: </span><span id="level-value">1</span>
+    </div>
+
+    <div id="time-remaining">
+      <span>Time Remaining: </span><span id="time-value">15</span>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
